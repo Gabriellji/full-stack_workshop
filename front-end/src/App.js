@@ -70,8 +70,8 @@ export default class App extends Component {
         </form>
         {
           this.state.data.length > 0 &&
-          this.state.data.map((element, index) =>
-            <p key={index}>Name: {element.user}, Age: {element.age}</p>
+          this.state.data.map((element) =>
+            <p key={element.id}>Name: {element.user}, Age: {element.age}</p>
           )
         }
       </div>
