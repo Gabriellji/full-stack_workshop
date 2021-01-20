@@ -71,7 +71,7 @@ export default class App extends Component {
         {
           this.state.data.length > 0 &&
           this.state.data.map((element, index) =>
-            <p key={index}>Name: {element.name}, Age: {element.age}</p>
+            <p key={index}>Name: {element.user}, Age: {element.age}</p>
           )
         }
       </div>
